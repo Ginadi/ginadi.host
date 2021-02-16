@@ -1,0 +1,6 @@
+footer{
+    display: flex;
+    @include flex(space-around, center, row);
+    min-height: 10vh;
+    background: $background-color;
+}

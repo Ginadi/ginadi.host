@@ -1,0 +1,24 @@
+.hero{
+    padding: 2rem 0rem;
+    min-height: 90vh;
+    background: url('../imgs/sky.jpg');
+    @include flex(center, center, column);
+}
+.hero h2,
+p{
+    color: white;
+    text-align: center;
+}
+.hero img{
+    height:30rem;
+    animation: hands 2s alternate-reverse infinite;
+}
+
+@keyframes hands{
+    from{
+        transform: rotateZ(-5deg);
+    }
+    to{
+        transform: rotateZ(5deg);
+    }
+}

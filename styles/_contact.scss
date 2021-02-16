@@ -1,0 +1,26 @@
+.contact{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contact form{
+    background: $background-color;
+    color: white;
+    margin: auto;
+    padding: 10rem;
+    border-radius: 10rem;
+    border: 1px solid black;
+    @include flex(center, center, column);
+}
+
+form input,
+textarea{
+    padding: 0.5rem;
+    margin: 1rem;
+}
+button{
+    margin: 1rem;
+    width: 90%;
+    border: none;
+}

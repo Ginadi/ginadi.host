@@ -1,0 +1,28 @@
+.about{
+    padding: 2rem;
+    min-height: 100vh;
+    @include flex(space-between, center, row);
+}
+
+.about-one{
+    @include flex(center, center, row);
+    flex: 1 1 40rem;
+}
+#count{
+    border-radius: 20px;
+}
+.about-two{
+    padding: 5rem;
+    flex: 1 1 10rem;
+}
+.about h2{
+    text-align: right;
+}
+.about p{
+    color: black;
+    text-align: right;
+}
+.about-two span{
+    font-size: 75%;
+    opacity: 0.75;
+}

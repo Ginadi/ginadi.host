@@ -1,0 +1,32 @@
+.main-head{
+    margin: 0 0 0 auto;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+/*
+nav{
+    @include flex(space-between, center, row);
+}
+*/
+nav{
+    width: 95%;
+    margin: auto;
+    padding: 2rem 0rem;
+    min-height: 10vh;
+    @include flex(space-between, center, row);
+}
+nav h1{
+    @include flex(end, center, row);
+    flex: 2 1 10rem;
+}
+ul{
+    @include flex(space-around, center, row);
+    flex: 1 1 10rem;
+}
+
+li a{
+    text-decoration: none;
+    &:hover{
+        color:rgb(83, 129, 214);
+        transition: color 0.3s ease-in-out;
+    }
+}

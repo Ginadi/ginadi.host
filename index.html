@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="זהו האתר הרשמי של כת השמשונים" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>כת השמשונים</title>
+</head>
+
+<main>
+    <header class="main-head">
+        <nav>
+            <ul>
+                <li><a href="#contact">הצטרפות</a></li>
+                <li><a href="#gallery">גלריה</a></li>
+                <li><a href="#about">עלינו</a></li>
+                <li><a href="#">בית</a></li>
+            </ul>
+            <h1 id="logo">כת השמשונים</h1>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>כת השמשונים</h2>
+            <p>המקום היחיד בו עליך להיות <br />
+                ברוך הבא אל כת השמשונים</p>
+            <img src="./imgs/welcome-hands.png" alt="join-us">
+        </section>
+        <section class="about" id="about">
+            <div class="about-one">
+                <video autoplay muted nocontrols loop src="./imgs/count.mp4" id="count"></video>
+            </div>
+            <div class="about-two">
+                <h2>?מי אנחנו</h2>
+                <p>אנו כת סודית<span>(עכשיו לא במיוחד)</span>
+                    שדוגלת בסוציאל-דמוקרטיזם <br />
+                    .עם שורשים קומוניסטים לא כולל מאואיזם, עם שותפים נאציסטים <br />
+                    אם שאלתם מה הוא מקור השמשונים, נספר לכם שהשמשונים מקורם <br />
+                    באימפריה הלועזית בה מדברים בשפה הלועזית.
+                    קיום השמשונים נמצא בכל רחבי העולם ומטרתם לחיות בשלום ולהקים את האימפריה מחדש
+                </p>
+            </div>
+        </section>
+        <section class="gallery" id="gallery">
+            <div class="content">
+                <h2>גלריה</h2>
+                <h3>מנהיגי הכת</h3>
+            </div>
+            <div class="images">
+                <div class="ginadi">
+                    <h4>גינאדי</h4>
+                    <img src="./imgs/gallery/ginadi.png" alt="ginadi">
+                </div>
+                <div class="karni">
+                    <h4>קרני</h4>
+                    <img src="./imgs/gallery/karni-new.jpg" alt="karni">
+                </div>
+                <div class="noam">
+                    <h4>נועם</h4>
+                    <img src="./imgs/gallery/watermeloonoam.jpg" alt="watermeloonoam">
+                </div>
+                <div class="natke">
+                    <h4>נתק'ה</h4>
+                    <img src="./imgs/gallery/natke.png" alt="natke">
+                </div>
+                <div class="chen">
+                    <h4>חן</h4>
+                    <img src="./imgs/gallery/chen.jpeg" alt="chen">
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <form action="https://discord.gg/UkB2qke">
+                <h4>להצטרפות</h4>
+                <label for="name">שמך הפרטי</label>
+                <input type="text" id="name">
+                <label for="email">אימייל</label>
+                <input type="email" id="email">
+                <label for="message">למה עלינו לצרף אותך</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <button type="submit">שלח</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="rights">
+            <p>כל הזכויות שמורת &copy; 2020 &copy; Ginadi</p>
+        </div>
+    </footer>
+    </body>
+
+</html>
